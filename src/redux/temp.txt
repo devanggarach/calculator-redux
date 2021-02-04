@@ -1,0 +1,25 @@
+// const ClickEqual=(state=initialState,action)=>{
+//     switch(action.type){
+//         case CLICK_EQUAL: return{
+//             userText:eval(state.userText)
+//         }
+//     }
+// }
+// const GeneralClick=(state=initialState,action)=>{
+//     switch(action.type){
+//         case GENERAL_CLICK: 
+//         var calc;
+//         if(state.initialState===0 || state.initialState==='' || state.initialState==='0' ||state.initialState==='Error'){
+//             state.initialState= a
+//             return{
+//                 userText:state.initialState
+//             }
+//         }
+//         else{
+//             state.initialState= state.initialState+a
+//             return{
+//                 userText:state.initialState
+//             }
+//         }
+//     }
+// }
